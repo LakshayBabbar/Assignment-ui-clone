@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "img": "/experience/1.png",
+    "title": "Masters' Union Campus Tour (In person - Gurugram Campus)",
+    "time": "29th Apr 2024, 01:00 PM",
+    "type": "Offline",
+    "desc": "Experience our Gurugram Campus",
+    "link": "https://mastersunion.org/events/masters-union-campus-tour-twentynine-april"
+  },
+  {
+    "id": 1,
+    "img": "/experience/2.jpg",
+    "title": "UG Information Session and Campus Tour",
+    "time": "4th May 2024, 11:00 AM",
+    "type": "Hybrid",
+    "desc": "Join us at the Masters Union Campus in Gurugram to know more about the Undergraduate Programme and interact with the Masters’ Union Undergraduate team. Open to applicants, potential and their parents. ",
+    "link": "https://mastersunion.org/events/campus-tour"
+  },
+  {
+    "id": 2,
+    "img": "/experience/3.jpeg",
+    "title": "Test Drive",
+    "time": "17th May 2024, 10:00 AM",
+    "type": "Online",
+    "desc": "Through this intensive 12-week program, high school students can explore 12 new career paths with mentorship from top industry experts from Google, Microsoft, Bain, Zomato and more",
+    "link": "https://mastersunion.org/events/test-drive"
+  },
+  {
+    "id": 3,
+    "img": "/experience/4.jpg",
+    "title": "Masters’ Union Summer Startup Week  ",
+    "time": "1st Jun 2024 - 5th Jun 2024",
+    "type": "Offline",
+    "desc": "Summer Startup Week is a 5 day immersive bootcamp where we help students build a startup with the help of industry leaders.",
+    "link": "https://mastersunion.org/events/summer-startup-week"
+  },
+  {
+    "id": 4,
+    "img": "/experience/5.webp",
+    "title": "Nextgen Summer Skills Week",
+    "time": "24th Jun 2024 - 28th Jun 2024",
+    "type": "Offline",
+    "desc": "This summer week is specially designed to give high school students the exposure to upcoming new-age fields such as Digital Marketing, Financial Investing, Artificial Intelligence, Entrepreneurship and App Designing.",
+    "link": "https://mastersunion.org/events/ug-summer-week"
+  }
+]

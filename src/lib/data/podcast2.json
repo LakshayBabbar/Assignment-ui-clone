@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "title": "Vibhor Agarwal, 23",
+    "titleLight": "Founders Office, Hike",
+    "tags": "#story #gaming #placements",
+    "img": "/podcast2/1.webp"
+  },
+  {
+    "id": 1,
+    "title": "Anurag Bansal, 23",
+    "titleLight": "Founders Office,  Zerodha",
+    "tags": "#Zerodha #Entrepreneurship #MBA",
+    "img": "/podcast2/2.webp"
+  },
+  {
+    "id": 2,
+    "title": "Prabhu Dayal Guliani, 23",
+    "titleLight": "Head - Growth, Strategy, & Expansion, AMPM",
+    "tags": "#AMPM #growth #job",
+    "img": "/podcast2/3.webp"
+  },
+  {
+    "id": 3,
+    "title": "Kaustubh Kulkarni - JP Morgan India",
+    "titleLight": "Is India The Next Big Thing?",
+    "tags": "#Entrepreneurship #MBA #BusinessHacks",
+    "img": "/podcast2/4.webp"
+  },
+  {
+    "id": 4,
+    "title": "Deep Kalra - Founder, MakeMyTrip",
+    "titleLight": "Negative Revenue To 600+ Crores",
+    "tags": "#crores #grow #insights",
+    "img": "/podcast2/5.webp"
+  },
+  {
+    "id": 5,
+    "title": "Vikrant Vohra - CEO, Pizza Hut India",
+    "titleLight": "A Day Of 0 Sales",
+    "tags": "#MastersUnion #pizza #learning",
+    "img": "/podcast2/6.webp"
+  }
+]

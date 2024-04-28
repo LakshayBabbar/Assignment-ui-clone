@@ -1,0 +1,51 @@
+[
+  {
+    "id": 0,
+    "title": "Nikhil Chandra Gupta - MD & CEO, Payal Group",
+    "titleLight": "An 1800 Cr Chemical Factory!",
+    "tags": "#mastersunion #entrepreneurship #mba",
+    "img": "/section-offcampus/1.webp"
+  },
+  {
+    "id": 1,
+    "title": "Gajendra Jangid - Co-Founder & CMO, CARS24",
+    "titleLight": "5000 Cr Selling 2nd Hand Cars",
+    "tags": "#mastersunion #entrepreneurship #cars24",
+    "img": "/section-offcampus/2.webp"
+  },
+  {
+    "id": 2,
+    "title": "Dev Arora - CEO, Chai Point",
+    "titleLight": "Why Their Chai Costs ₹185?",
+    "tags": "#Entrepreneurship #MBA #BusinessHacks",
+    "img": "/section-offcampus/3.webp"
+  },
+  {
+    "id": 3,
+    "title": "Ramni Garg - Founder, MISSR",
+    "titleLight": "Making 2 Lakhs Selling Sarees From Home",
+    "tags": "#Entrepreneurship #MBA #BusinessHacks",
+    "img": "/section-offcampus/4.webp"
+  },
+  {
+    "id": 4,
+    "title": "Exploring The Business Behind Banjara Market",
+    "titleLight": "",
+    "tags": "#Shopping #India #Entrepreneurship",
+    "img": "/section-offcampus/5.webp"
+  },
+  {
+    "id": 5,
+    "title": "Alakh Pandey - Founder, Physics Wallah",
+    "titleLight": "India's Most Affordable Ed-tech Platform",
+    "tags": "#Education #EdTech #PhysicsWallah",
+    "img": "/section-offcampus/6.webp"
+  },
+  {
+    "id": 6,
+    "title": "Alok Sharma - Founder, Tuckinn",
+    "titleLight": "How to create a Successful Brewery  Business",
+    "tags": "#offcampus #shooting #education",
+    "img": "/section-offcampus/7.webp"
+  }
+]

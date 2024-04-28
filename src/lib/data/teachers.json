@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "img": "/about-masters/1.webp",
+    "name": "Rajat Mathur",
+    "profession": "MD, Morgan Stanley",
+    "teaching": "People Management and Decisions"
+  },
+  {
+    "id": 1,
+    "img": "/about-masters/2.webp",
+    "name": "Abhishek Kumar",
+    "profession": "Director, OLA Electric",
+    "teaching": "Mapping the Future of Energy Sector"
+  },
+  {
+    "id": 2,
+    "img": "/about-masters/3.webp",
+    "name": "Jishnu Changkakoti",
+    "profession": "Former Marketing Director, Johnson & Johnson",
+    "teaching": "Pricing Strategies"
+  },
+  {
+    "id": 3,
+    "img": "/about-masters/4.webp",
+    "name": "Sidharth Balakrishna",
+    "profession": "Former Chief Strategy Officer, Essel (Zee) Group",
+    "teaching": "Technology Tools for Managers"
+  },
+  {
+    "id": 4,
+    "img": "/about-masters/5.webp",
+    "name": "Satish Krishnan",
+    "profession": "Former MD, Financial Markets, Standard Chartered",
+    "teaching": "How Financial Markets Work"
+  },
+  {
+    "id": 5,
+    "img": "/about-masters/6.webp",
+    "name": "Mihir Mankad",
+    "profession": "Professor of Practice, Tufts & HBS",
+    "teaching": "The Art of Communication"
+  }
+]
