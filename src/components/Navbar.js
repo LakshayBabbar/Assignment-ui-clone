@@ -92,11 +92,11 @@ const Navbar = () => {
           </Button>
           <div className="sm:hidden">
             <IoMenuOutline
-              className={`text-2xl cursor-pointer ${!active && "hidden"}`}
+              className={`text-2xl cursor-pointer ${active && "hidden"}`}
               onClick={() => setActive(false)}
             />
             <IoMdClose
-              className={`text-2xl cursor-pointer ${active && "hidden"}`}
+              className={`text-2xl cursor-pointer ${!active && "hidden"}`}
               onClick={() => setActive(true)}
             />
           </div>
