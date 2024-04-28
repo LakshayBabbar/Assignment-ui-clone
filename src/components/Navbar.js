@@ -15,8 +15,8 @@ const Navbar = () => {
   const listClass =
     "rounded-full bg-black text-white hover:bg-red-500 p-1 text-xl transition-all duration-500";
   return (
-    <nav className="fixed top-0 left-0 bg-white w-full border-b z-50 ">
-      <div className="w-full h-10 bg-black flex items-center justify-center">
+    <nav className="fixed top-0 left-0 bg-white w-full border-b z-50">
+      <div className="w-full h-11 bg-black flex items-center justify-center">
         <div className="text-zinc-300 text-[13px] flex">
           <span className="hidden md:block">
             Online Practitioner-Led Learning with Offline Community Experiences

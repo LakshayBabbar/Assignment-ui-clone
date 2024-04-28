@@ -17,7 +17,7 @@ const Model = () => {
           />
           <iframe
             src={videoLink}
-            className="aspect-video w-[560px] h-[315px]"
+            className="aspect-video w-[85vw] sm:w-[560px]"
           ></iframe>
         </div>
       </div>

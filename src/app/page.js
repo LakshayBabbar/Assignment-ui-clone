@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <section className="bg-[#fff1d2] w-full py-20 flex flex-col md:flex-row items-center justify-evenly mt-16 gap-10">
+      <section className="bg-[#fff1d2] w-full py-20 flex flex-col md:flex-row items-center justify-evenly mt-[6.8rem] gap-10">
         <div className="w-4/5 sm:w-[30rem] space-y-8">
           <h1 className="text-4xl md:text-5xl font-bold font-serif">
             Learn Business by <i className="relative z-10">Running</i> Business
@@ -70,7 +70,7 @@ export default function Home() {
       </section>
       <section className="py-20 flex flex-col items-center">
         <div className="w-11/12 md:w-[fit-content]">
-          <div className="sm:sticky top-26 bg-white pt-5 z-40">
+          <div className="sm:sticky top-24 bg-white pt-5 z-40">
             <h1 className="text-2xl xm:text-3xl font-serif font-thin mb-10">
               Elevate. Execute. Evolve.
               <br />
