@@ -1,52 +1,58 @@
 [
-    {
-      "id": 0,
-      "title": "Karan Johar - Dharma Productions",
-      "titleLight": "How Bollywood Makes Money",
-      "tags": "#KoffeewithKaran #MastersUnion #KaranJohar",
-      "img": "/section-podcast/1.webp"
-    },
-    {
-      "id": 1,
-      "title": "Vishesh C Chandiok - Grant Thornton Bharat",
-      "titleLight": "Consulting In India Decoded",
-      "tags": "#BusinessHacks #Entrepreneurship #MBA",
-      "img": "/section-podcast/2.webp"
-    },
-    {
-      "id": 2,
-      "title": "Anand Srinivasan - Co-Founder & CIO, Akasa Air",
-      "titleLight": "Dominating Indian Aviation",
-      "tags": "#akasaair #Entrepreneurship #MBA",
-      "img": "/section-podcast/3.webp"
-    },
-    {
-      "id": 3,
-      "title": "Kaustubh Kulkarni - JP Morgan India",
-      "titleLight": "Is India The Next Big Thing?",
-      "tags": "#Entrepreneurship #MBA #BusinessHacks",
-      "img": "/section-podcast/4.webp"
-    },
-    {
-      "id": 4,
-      "title": "Deep Kalra - Founder, MakeMyTrip",
-      "titleLight": "Negative Revenue To 600+ Crores",
-      "tags": "#crores #grow #insights",
-      "img": "/section-podcast/5.webp"
-    },
-    {
-      "id": 5,
-      "title": "Vikrant Vohra - CEO, Pizza Hut India",
-      "titleLight": "A Day Of 0 Sales",
-      "tags": "#MastersUnion #pizza #learning",
-      "img": "/section-podcast/6.webp"
-    },
-    {
-      "id": 6,
-      "title": "Shiv Shivakumar - Former Chairman & CEO, PepsiCo",
-      "titleLight": "FMCG Myths Busted",
-      "tags": "#Nokia #unicorn #leader",
-      "img": "/section-podcast/7.webp"
-    }
-  ]
-  
+  {
+    "id": 0,
+    "title": "Karan Johar - Dharma Productions",
+    "titleLight": "How Bollywood Makes Money",
+    "tags": "#KoffeewithKaran #MastersUnion #KaranJohar",
+    "img": "/section-podcast/1.webp",
+    "link": "https://youtube.com/embed/zl8XHf0naqg"
+  },
+  {
+    "id": 1,
+    "title": "Vishesh C Chandiok - Grant Thornton Bharat",
+    "titleLight": "Consulting In India Decoded",
+    "tags": "#BusinessHacks #Entrepreneurship #MBA",
+    "img": "/section-podcast/2.webp",
+    "link": "https://youtube.com/embed/wyAEM6-Au6Q"
+  },
+  {
+    "id": 2,
+    "title": "Anand Srinivasan - Co-Founder & CIO, Akasa Air",
+    "titleLight": "Dominating Indian Aviation",
+    "tags": "#akasaair #Entrepreneurship #MBA",
+    "img": "/section-podcast/3.webp",
+    "link": "https://youtube.com/embed/Wzl2aV2OZCg"
+  },
+  {
+    "id": 3,
+    "title": "Kaustubh Kulkarni - JP Morgan India",
+    "titleLight": "Is India The Next Big Thing?",
+    "tags": "#Entrepreneurship #MBA #BusinessHacks",
+    "img": "/section-podcast/4.webp",
+    "link": "https://youtube.com/embed/9YLHD8BFQ7Y"
+  },
+  {
+    "id": 4,
+    "title": "Deep Kalra - Founder, MakeMyTrip",
+    "titleLight": "Negative Revenue To 600+ Crores",
+    "tags": "#crores #grow #insights",
+    "img": "/section-podcast/5.webp",
+    "link": "https://youtube.com/embed/mz8gnnhabD4"
+  },
+  {
+    "id": 5,
+    "title": "Vikrant Vohra - CEO, Pizza Hut India",
+    "titleLight": "A Day Of 0 Sales",
+    "tags": "#MastersUnion #pizza #learning",
+    "img": "/section-podcast/6.webp",
+    "link": "https://youtube.com/embed/DcehZdqCt4k"
+  },
+  {
+    "id": 6,
+    "title": "Shiv Shivakumar - Former Chairman & CEO, PepsiCo",
+    "titleLight": "FMCG Myths Busted",
+    "tags": "#Nokia #unicorn #leader",
+    "img": "/section-podcast/7.webp",
+    "link": "https://youtube.com/embed/g_-jS_Dr_a8"
+  }
+]

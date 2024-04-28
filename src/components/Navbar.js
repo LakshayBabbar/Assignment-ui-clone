@@ -15,8 +15,23 @@ const Navbar = () => {
   const listClass =
     "rounded-full bg-black text-white hover:bg-red-500 p-1 text-xl transition-all duration-500";
   return (
-    <nav className="fixed top-0 left-0 bg-white w-full h-16 border-b z-[999]">
-      <div className="w-full h-full flex items-center justify-around">
+    <nav className="fixed top-0 left-0 bg-white w-full border-b z-50 ">
+      <div className="w-full h-10 bg-black flex items-center justify-center">
+        <div className="text-zinc-300 text-[13px] flex">
+          <span className="hidden md:block">
+            Online Practitioner-Led Learning with Offline Community Experiences
+            |&nbsp;
+          </span>
+          <a
+            href="https://mastercamp.org/"
+            target="_blank"
+            className="bg-text bg-clip-text text-transparent font-bold"
+          >
+            &nbsp;EXPLORE MASTERCAMP
+          </a>
+        </div>
+      </div>
+      <div className="w-full flex items-center h-16 justify-around">
         <div>
           <Image src={logo} alt="logo" className="w-36 sm:w-auto" />
         </div>
@@ -69,7 +84,12 @@ const Navbar = () => {
             </li>
           </ul>
           <Button className="hidden sm:flex">All Courses</Button>
-          <Button className="border-red-500 text-red-500 hover:shadow-none" variant="outline">Apply Now</Button>
+          <Button
+            className="border-red-500 text-red-500 hover:shadow-none"
+            variant="outline"
+          >
+            Apply Now
+          </Button>
           <div className="sm:hidden">
             <IoMenuOutline
               className={`text-2xl cursor-pointer ${!active && "hidden"}`}

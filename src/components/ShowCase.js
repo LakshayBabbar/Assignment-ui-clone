@@ -19,11 +19,7 @@ export default function ShowCase(props) {
         </h1>
       </div>
       <div className="w-full md:w-[55vw] px-8">
-        <Swiper
-          slidesPerView={"auto"}
-          spaceBetween={30}
-          modules={[Pagination]}
-        >
+        <Swiper slidesPerView={"auto"} spaceBetween={30} modules={[Pagination]}>
           {props.data.map((item) => {
             return (
               <SwiperSlide key={item.id}>

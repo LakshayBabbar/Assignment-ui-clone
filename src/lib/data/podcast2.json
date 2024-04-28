@@ -4,41 +4,47 @@
     "title": "Vibhor Agarwal, 23",
     "titleLight": "Founders Office, Hike",
     "tags": "#story #gaming #placements",
-    "img": "/podcast2/1.webp"
+    "img": "/podcast2/1.webp",
+    "link": "https://youtube.com/embed/UJMO8fYIQTE"
   },
   {
     "id": 1,
     "title": "Anurag Bansal, 23",
     "titleLight": "Founders Office,  Zerodha",
     "tags": "#Zerodha #Entrepreneurship #MBA",
-    "img": "/podcast2/2.webp"
+    "img": "/podcast2/2.webp",
+    "link": "https://youtube.com/embed/tXjPUfEqQr4"
   },
   {
     "id": 2,
     "title": "Prabhu Dayal Guliani, 23",
     "titleLight": "Head - Growth, Strategy, & Expansion, AMPM",
     "tags": "#AMPM #growth #job",
-    "img": "/podcast2/3.webp"
+    "img": "/podcast2/3.webp",
+    "link": "https://youtube.com/embed/iYQiC_F_K8w"
   },
   {
     "id": 3,
     "title": "Kaustubh Kulkarni - JP Morgan India",
     "titleLight": "Is India The Next Big Thing?",
     "tags": "#Entrepreneurship #MBA #BusinessHacks",
-    "img": "/podcast2/4.webp"
+    "img": "/podcast2/4.webp",
+    "link": "https://youtube.com/embed/C1RnMO5zotc"
   },
   {
     "id": 4,
     "title": "Deep Kalra - Founder, MakeMyTrip",
     "titleLight": "Negative Revenue To 600+ Crores",
     "tags": "#crores #grow #insights",
-    "img": "/podcast2/5.webp"
+    "img": "/podcast2/5.webp",
+    "link": "https://youtube.com/embed/XQPnjqtJcuQ"
   },
   {
     "id": 5,
     "title": "Vikrant Vohra - CEO, Pizza Hut India",
     "titleLight": "A Day Of 0 Sales",
     "tags": "#MastersUnion #pizza #learning",
-    "img": "/podcast2/6.webp"
+    "img": "/podcast2/6.webp",
+    "link": "https://youtube.com/embed/NxNOBJTkDi4"
   }
 ]

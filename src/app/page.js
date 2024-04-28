@@ -70,7 +70,7 @@ export default function Home() {
       </section>
       <section className="py-20 flex flex-col items-center">
         <div className="w-11/12 md:w-[fit-content]">
-          <div className="sm:sticky top-16 bg-white pt-5 z-50">
+          <div className="sm:sticky top-26 bg-white pt-5 z-40">
             <h1 className="text-2xl xm:text-3xl font-serif font-thin mb-10">
               Elevate. Execute. Evolve.
               <br />
@@ -151,7 +151,6 @@ export default function Home() {
         category="PODCAST"
       />
       <ContainerSection title="Experience the Union">
-      {console.log(experience)}
         <Swiper slidesPerView={"auto"} spaceBetween={30} modules={[Pagination]}>
           {experience.map((item) => {
             return (

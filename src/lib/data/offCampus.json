@@ -4,48 +4,55 @@
     "title": "Nikhil Chandra Gupta - MD & CEO, Payal Group",
     "titleLight": "An 1800 Cr Chemical Factory!",
     "tags": "#mastersunion #entrepreneurship #mba",
-    "img": "/section-offcampus/1.webp"
+    "img": "/section-offcampus/1.webp",
+    "link": "https://www.youtube.com/embed/8Zh1TucHDwI"
   },
   {
     "id": 1,
     "title": "Gajendra Jangid - Co-Founder & CMO, CARS24",
     "titleLight": "5000 Cr Selling 2nd Hand Cars",
     "tags": "#mastersunion #entrepreneurship #cars24",
-    "img": "/section-offcampus/2.webp"
+    "img": "/section-offcampus/2.webp",
+    "link": "https://youtube.com/embed/KwbATQanLtw"
   },
   {
     "id": 2,
     "title": "Dev Arora - CEO, Chai Point",
     "titleLight": "Why Their Chai Costs ₹185?",
     "tags": "#Entrepreneurship #MBA #BusinessHacks",
-    "img": "/section-offcampus/3.webp"
+    "img": "/section-offcampus/3.webp",
+    "link": "https://youtube.com/embed/c2qBPr7aaz8"
   },
   {
     "id": 3,
     "title": "Ramni Garg - Founder, MISSR",
     "titleLight": "Making 2 Lakhs Selling Sarees From Home",
     "tags": "#Entrepreneurship #MBA #BusinessHacks",
-    "img": "/section-offcampus/4.webp"
+    "img": "/section-offcampus/4.webp",
+    "link": "https://youtube.com/embed/8_t_BfQtBP4"
   },
   {
     "id": 4,
     "title": "Exploring The Business Behind Banjara Market",
     "titleLight": "",
     "tags": "#Shopping #India #Entrepreneurship",
-    "img": "/section-offcampus/5.webp"
+    "img": "/section-offcampus/5.webp",
+    "link": "https://youtube.com/embed/5KS93dDXtew"
   },
   {
     "id": 5,
     "title": "Alakh Pandey - Founder, Physics Wallah",
     "titleLight": "India's Most Affordable Ed-tech Platform",
     "tags": "#Education #EdTech #PhysicsWallah",
-    "img": "/section-offcampus/6.webp"
+    "img": "/section-offcampus/6.webp",
+    "link": "https://youtube.com/embed/1kf9JSxA5J0"
   },
   {
     "id": 6,
     "title": "Alok Sharma - Founder, Tuckinn",
     "titleLight": "How to create a Successful Brewery  Business",
     "tags": "#offcampus #shooting #education",
-    "img": "/section-offcampus/7.webp"
+    "img": "/section-offcampus/7.webp",
+    "link": "https://youtube.com/embed/Q514gDK5hV4"
   }
 ]
