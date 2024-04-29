@@ -130,7 +130,7 @@ const Navbar = () => {
             </Button>
             {fullDropDown && (
               <div className="absolute w-[100vw] h-[100vh] md:h-[35vh] bg-white top-[4rem] left-0 flex md:justify-center">
-                <div className="md:border-x p-10 md:p-6 h-[fit-content]">
+                <div className="md:border-x p-10 md:p-6 h-64">
                   <ul className="space-y-2">
                     <li className="text-red-500 font-[600] text-sm">
                       On Campus Programs
@@ -146,7 +146,7 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="space-y-4 p-6 hidden md:block">
+                <div className="space-y-4 p-6 hidden md:block border-r h-64">
                   <a
                     href="https://mastersunion.org/pgp-technology-and-business-management"
                     className="hover:text-red-500 text-2xl font-bold font-serif"
