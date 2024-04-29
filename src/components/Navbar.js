@@ -12,6 +12,7 @@ import { IoMdClose } from "react-icons/io";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
+  const [isdropdown, setIsDropdown] = useState(false);
   const listClass =
     "rounded-full bg-black text-white hover:bg-red-500 p-1 text-xl transition-all duration-500";
   return (
@@ -83,21 +84,48 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <Button className="hidden sm:flex">All Courses</Button>
-          <Button
-            className="border-red-500 text-red-500 hover:shadow-none"
-            variant="outline"
-          >
-            Apply Now
-          </Button>
+          <div className="relative">
+            <Button
+              className="border-red-500 text-red-500 hover:shadow-none"
+              variant="outline"
+              onClick={() => setIsDropdown(!isdropdown)}
+            >
+              Apply Now
+            </Button>
+            {isdropdown && (
+              <div className="absolute bg-white h-22 w-36 top-14 rounded-md z-10">
+                <ul className="p-2 text-sm flex flex-col justify-between h-full">
+                  <li className="rounded-md p-2 hover:bg-zinc-200">
+                    <a
+                      href="https://admissions.mastersunion.org/pgp-rise"
+                      target="_blank"
+                    >
+                      PGP Rise
+                    </a>
+                  </li>
+                  <li className="rounded-md p-2 hover:bg-zinc-200">
+                    <a
+                      href="https://admissions.mastersunion.org/ug-admissions-form"
+                      target="_blank"
+                    >
+                      UG Programme
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            )}
+          </div>
+          <div>
+            <Button className="hidden sm:flex">All Courses</Button>
+          </div>
           <div className="sm:hidden">
             <IoMenuOutline
               className={`text-2xl cursor-pointer ${active && "hidden"}`}
-              onClick={() => setActive(false)}
+              onClick={() => setActive(true)}
             />
             <IoMdClose
               className={`text-2xl cursor-pointer ${!active && "hidden"}`}
-              onClick={() => setActive(true)}
+              onClick={() => setActive(false)}
             />
           </div>
         </div>
