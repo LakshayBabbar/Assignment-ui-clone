@@ -21,6 +21,34 @@ const Navbar = () => {
     setActive(!active);
     setFullDropDown(!fullDropDown);
   };
+  const PGBT = {
+    heading: "PGB in Technology & Business Management",
+    links: [
+      "PGB TBM",
+      "ADMISSIONS",
+      "GLOBAL IMMERSION",
+      "STUDENT LIF",
+      "CAREERS",
+      "RESEARCH",
+      "EVENTS",
+      "CAMPUS VIRTUAL TOUR",
+    ],
+  };
+  const PGBR = {
+    heading: "PGP Rise",
+    links: ["PGB RISE", "ADMISSIONS", "COHORT PROFILE", "EVENTS"],
+  };
+  const UG = {
+    heading: "Undergraduate Programme",
+    links: [
+      "Undergraduate Programme",
+      "ADMISSIONS",
+      "STUDENT LIFE",
+      "HOSTEL FACILITIES",
+      "EVENTS",
+    ],
+  };
+  const [activeTab, setActiveTab] = useState({ active: "PGBT", data: PGBT });
   return (
     <nav className="fixed top-0 left-0 bg-white w-full border-b z-50">
       <div className="w-full h-11 bg-black flex items-center justify-center">
@@ -129,31 +157,60 @@ const Navbar = () => {
               All Courses
             </Button>
             {fullDropDown && (
-              <div className="absolute w-[100vw] h-[100vh] md:h-[35vh] bg-white top-[4rem] left-0 flex md:justify-center">
+              <div className="absolute w-[100vw] h-[100vh] md:h-[32vh] bg-white top-[4rem] left-0 flex md:justify-center">
                 <div className="md:border-x p-10 md:p-6 h-64">
                   <ul className="space-y-2">
                     <li className="text-red-500 font-[600] text-sm">
                       On Campus Programs
                     </li>
-                    <li className="p-2 hover:bg-amber-300 cursor-pointer flex justify-between w-72">
+                    <li
+                      className={`p-2 hover:bg-amber-300 cursor-pointer flex justify-between w-72 ${
+                        activeTab.active === "PGBT" && "md:bg-amber-300"
+                      }`}
+                      onClick={() =>
+                        setActiveTab({ active: "PGBT", data: PGBT })
+                      }
+                    >
                       PGP TBM <span className="hidden md:block">&gt;</span>
                     </li>
-                    <li className="p-2 hover:bg-amber-300 cursor-pointer flex justify-between w-72">
+                    <li
+                      className={`p-2 hover:bg-amber-300 cursor-pointer flex justify-between w-72 ${
+                        activeTab.active === "PGBR" && "md:bg-amber-300"
+                      }`}
+                      onClick={() =>
+                        setActiveTab({ active: "PGBR", data: PGBR })
+                      }
+                    >
                       PGP Rise <span className="hidden md:block">&gt;</span>
                     </li>
-                    <li className="p-2 hover:bg-amber-300 cursor-pointer flex justify-between w-72">
+                    <li
+                      className={`p-2 hover:bg-amber-300 cursor-pointer flex justify-between w-72 ${
+                        activeTab.active === "UG" && "md:bg-amber-300"
+                      }`}
+                      onClick={() => setActiveTab({ active: "UG", data: UG })}
+                    >
                       UG Programme <span className="hidden md:block">&gt;</span>
                     </li>
                   </ul>
                 </div>
-                <div className="space-y-4 p-6 hidden md:block border-r h-64">
+                <div className="space-y-4 p-6 hidden md:block border-r h-64 w-[40rem]">
                   <a
                     href="https://mastersunion.org/pgp-technology-and-business-management"
                     className="hover:text-red-500 text-2xl font-bold font-serif"
                   >
-                    PGB in Technology & Business Management
+                    {activeTab.data.heading}
                   </a>
                   <hr className="w-full" />
+
+                  <ul className="grid grid-cols-3 gap-4 text-sm font-[500]">
+                    {activeTab.data.links.map((item) => {
+                      return (
+                        <li className="hover:underline" key={Math.random()}>
+                          {item}
+                        </li>
+                      );
+                    })}
+                  </ul>
                 </div>
               </div>
             )}
