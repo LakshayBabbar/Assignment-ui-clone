@@ -13,8 +13,14 @@ import { IoMdClose } from "react-icons/io";
 const Navbar = () => {
   const [active, setActive] = useState(false);
   const [isdropdown, setIsDropdown] = useState(false);
+  const [fullDropDown, setFullDropDown] = useState(false);
   const listClass =
     "rounded-full bg-black text-white hover:bg-red-500 p-1 text-xl transition-all duration-500";
+
+  const menuHandler = () => {
+    setActive(!active);
+    setFullDropDown(!fullDropDown);
+  };
   return (
     <nav className="fixed top-0 left-0 bg-white w-full border-b z-50">
       <div className="w-full h-11 bg-black flex items-center justify-center">
@@ -32,7 +38,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-      <div className="w-full flex items-center h-16 justify-around">
+      <div className="w-full flex items-center h-16 justify-around relative">
         <div>
           <Image src={logo} alt="logo" className="w-36 sm:w-auto" />
         </div>
@@ -93,7 +99,7 @@ const Navbar = () => {
               Apply Now
             </Button>
             {isdropdown && (
-              <div className="absolute bg-white h-22 w-36 top-14 rounded-md z-10">
+              <div className="absolute bg-white h-22 w-36 top-14 rounded-md z-10 drop-shadow-xl">
                 <ul className="p-2 text-sm flex flex-col justify-between h-full">
                   <li className="rounded-md p-2 hover:bg-zinc-200">
                     <a
@@ -116,16 +122,48 @@ const Navbar = () => {
             )}
           </div>
           <div>
-            <Button className="hidden sm:flex">All Courses</Button>
+            <Button
+              className="hidden md:flex"
+              onClick={() => setFullDropDown(!fullDropDown)}
+            >
+              All Courses
+            </Button>
+            {fullDropDown && (
+              <div className="absolute w-[100vw] h-[100vh] md:h-[35vh] bg-white top-[4rem] left-0 flex md:justify-center">
+                <div className="md:border-x p-10 md:p-6 h-[fit-content]">
+                  <ul className="space-y-2">
+                    <li className="text-red-500 font-[600] text-sm">
+                      On Campus Programs
+                    </li>
+                    <li className="p-2 hover:bg-amber-300 cursor-pointer flex justify-between w-72">
+                      PGP TBM <span className="hidden md:block">&gt;</span>
+                    </li>
+                    <li className="p-2 hover:bg-amber-300 cursor-pointer flex justify-between w-72">
+                      PGP Rise <span className="hidden md:block">&gt;</span>
+                    </li>
+                    <li className="p-2 hover:bg-amber-300 cursor-pointer flex justify-between w-72">
+                      UG Programme <span className="hidden md:block">&gt;</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="space-y-4 p-6 hidden md:block">
+                  <a
+                    href="https://mastersunion.org/pgp-technology-and-business-management"
+                    className="hover:text-red-500 text-2xl font-bold font-serif"
+                  >
+                    PGB in Technology & Business Management
+                  </a>
+                  <hr className="w-full" />
+                </div>
+              </div>
+            )}
           </div>
-          <div className="sm:hidden">
+          <div className="md:hidden" onClick={menuHandler}>
             <IoMenuOutline
               className={`text-2xl cursor-pointer ${active && "hidden"}`}
-              onClick={() => setActive(true)}
             />
             <IoMdClose
               className={`text-2xl cursor-pointer ${!active && "hidden"}`}
-              onClick={() => setActive(false)}
             />
           </div>
         </div>
